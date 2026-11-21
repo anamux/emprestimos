@@ -1,0 +1,7 @@
+package com.projeto.emprestimo.exception;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class NaoEncontrdadoExceptionTest {
+
+}
