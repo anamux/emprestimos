@@ -27,7 +27,6 @@ public class Equipamento {
     private boolean disponivel = true;
 
     public Equipamento() { }
-    // getters e setters no próximo slide
 
     public Long getId() {
         return id;

@@ -9,5 +9,5 @@ import java.util.Optional;
 public interface ColaboradorRepository extends JpaRepository<Colaborador, Long> {
     List<Colaborador> findAll();
 
-    Optional<Colaborador> findById(Long id);
+    boolean existsByEmail(String email);
 }
